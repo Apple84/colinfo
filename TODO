@@ -1,4 +1,6 @@
 
+* Add POD to script.
+
 * If we add anymore options to the format of reporting, the report functionality
   should be factored out into object-oriented classes.
 
