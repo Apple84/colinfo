@@ -1,0 +1,21 @@
+
+colinfo -------------------------------------------------------------
+
+ USAGE:  head -1 <file> | colinfo --base [zero|one]
+         --delimiter [comma|tab|space|pipe|wildcard|allchar]
+         --length --verbose (--wildcard <string>) --key <file>
+
+  --base       Starting base of ID iterations for fields. [zero|one]
+  --delimiter  Delimits fields. [comma|tab|space|pipe|wildcard|allchar]
+  --wildcard   Pass custom string; requires "wildcard" delimiter type.
+  --length     Show length of each field. [OPTIONAL]
+  --column     Override to display only column info. [OPTIONAL]
+  --verbose    Ancillary information displayed with column info. [OPTIONAL]
+  --key        Match a single-column key file with results. [OPTIONAL]
+  --help       View option info.
+  --version    Display colinfo version.
+
+ default: colinfo --base=ONE --delimiter=TAB
+
+---------------------------------------------------------------------
+

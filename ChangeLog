@@ -1,0 +1,39 @@
+2010-11-11  Todd Wylie  <todd@monkeybytes.org>
+
+	* bin/colinfo.pl (report_colinfo): Adding ability to match a key
+	file with a colinfo result.
+	(non_verbose_printing): Updated for "key" support; getting a
+	little ugly, if we extend any further, re-factor to OOP.
+	(verbose_printing): Updated for "key"; ugly nested logic here.
+	Chacking for non-null strings in options now.
+
+2010-10-22  Todd Wylie  <todd@monkeybytes.org>
+
+	* bin/colinfo.pl (report_colinfo): Adding support for delimiting
+	on any/all characters (--delimiter=ALLCHAR).
+	(verbose_printing): Updated to make length printing optional to
+	the user.
+	(report_colinfo): Updated to make the default "non-verbose".
+	(verbose_printing): Major changes for --column override.
+	(non_verbose_printing): Major changes for --column override. 
+
+2010-10-14  Todd Wylie  <todd@monkeybytes.org>
+
+	* bin/colinfo.pl (version_statement): Added author contact information.
+	(verbose_printing): Split out verbose into own subroutine.
+	(non_verbose_printing): Non verbose reporting has own subroutine.
+	(report_colinfo): Updated to handle verbose/non-verbose reporting.
+
+2010-10-13  Todd Wylie  <twylie@dhcp-10-0-108-117.gsc.wustl.edu>
+
+	* bin/colinfo.pl (usage_statement): Type-o fixed in the usage
+	statement.
+
+2010-10-13  Todd Wylie  <todd@monkeybytes.org>
+
+	* bin/colinfo.pl: Tagged "0.4" and released.
+	(report_colinfo): Added wildcard support.
+
+	* colinfo Added support for choosing base options as well as
+	delimiter character.
+

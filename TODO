@@ -1,0 +1,6 @@
+
+* If we add anymore options to the format of reporting, the report functionality
+  should be factored out into object-oriented classes.
+
+* Add ability to byte-index and jump to a specific line of the file....?
+
